@@ -1,1 +1,0 @@
-function es1 (col, row) {  var i;  var j;  var val = 0;    document.write("<table>");  for (i = 1; i <= col; i += 1) {	document.write("<tr>");	for (j = 1; j <= row; j += 1) {				val = i * j;			document.write("<td> " + val + " </td>");				}	document.write("</tr>");  }  document.write("</table>");  return;}es1(10, 10);
