@@ -51,6 +51,7 @@ squarePill_secondRow_1 = T([2])([5.25])(squarePill_firstRow_1)
 internal_pillars_1 = STRUCT(NN(3)([squarePill_secondRow_1, traslation]))
 lastSquarePill_secondRow_1 = T([1])([11])(squarePill_secondRow_1)
 #l'unico pilastro cilindrico
+#codice di Giovanni Pace 465479
 third_circPill_secondoRow_1 = T([1,2,3])([8.25,5.25,2.70])(circPill_short)
 internal_pillars_1 = STRUCT([internal_pillars_1, third_circPill_secondoRow_1, lastSquarePill_secondRow_1])
 #aggiungo i raccordi per col secondo piano

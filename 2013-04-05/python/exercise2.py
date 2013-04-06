@@ -83,6 +83,7 @@ pillars2 = STRUCT([external_pillars_2,internal_pillars_2,squareJunction_firstRow
 #definisco il pilastro rettangolare per l'ultimo piano (più basso)
 squarePill_3 = PROD([CUBOID([0.25,0.25]),Q(2.30)])
 squarePill_3 = T([2])([-0.125])(squarePill_3)
+#codice di Giovanni Pace 465479
 squarePill_small_3 = PROD([CUBOID([0.125,0.125]),Q(2.30)])
 squarePill_small_3 = T([2])([-0.125])(squarePill_small_3)
 

@@ -112,6 +112,7 @@ var external_pillars_2 = STRUCT([external_pillars_2, lastSquarePill_firstRow_2])
 
 //pilastri esterni, seconda riga, secondo piano
 var squarePill_secondRow_2 = T([2,3])([5.25, 5.20])(squarePill_short);
+//codice di Giovanni Pace 465479
 var internal_pillars_2 = STRUCT(REPLICA(5)([squarePill_secondRow_2, traslation]));
 
 //aggiungo i raccordi per col terzo piano

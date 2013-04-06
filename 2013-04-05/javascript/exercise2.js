@@ -213,6 +213,7 @@ var cells = [[0,1,2]];
 var floor_3_2 = SIMPLICIAL_COMPLEX(verts)(cells);
 floor_3_2 = EXTRUDE([0.25])(floor_3_2);
 var floor_4_2 = GRID([[5],[0.25],[0.25]]);
+//codice di Giovanni Pace 465479
 floor_4_2 = T([1,2])([0.25,7-0.25])(floor_4_2);
 var floor_5_2 = GRID([[0.25],[1.75],[0.25]]);
 floor_5_2 = T([2])([5.25])(floor_5_2);

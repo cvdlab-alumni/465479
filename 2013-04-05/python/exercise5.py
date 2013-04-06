@@ -63,6 +63,7 @@ pillars1 = STRUCT([internal_pillars_1,external_pillars_1,external_Junction_first
 
 #SECONDO PIANO
 #partire da 5.2
+#codice di Giovanni Pace 465479
 #pilastri interni, prima riga, secondo piano
 squarePill_firstRow_2 = T([3])([5.20])(squarePill_short)
 external_pillars_2 = STRUCT(NN(3)([squarePill_firstRow_2, traslation]))

@@ -85,6 +85,7 @@ var circPill_short = EXTRUDE([2.25])(DISK(0.125)(36));
 circPill_short = T([1])([0.125])(circPill_short);
 
 //pilastri esterni, prima riga, primo piano
+//codice di Giovanni Pace 465479
 var squarePill_firstRow_1 = T([3])([2.70])(squarePill_short);
 var external_pillars_1 = STRUCT(REPLICA(5)([squarePill_firstRow_1, traslation]));
 

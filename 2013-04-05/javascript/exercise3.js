@@ -131,6 +131,7 @@ squarePill_small_3 = T([2])([-0.125])(squarePill_small_3);
 //pilastri esterni, prima riga
 var squarePill1_firstRow_3 = T([1,3])([5.5,7.70])(squarePill_3);
 var squarePill2_firstRow_3 = T([1])([5.5])(squarePill1_firstRow_3);
+//codice di Giovanni Pace 465479
 var external_pillars_3 = STRUCT([squarePill1_firstRow_3,squarePill2_firstRow_3]);
 
 //pilastri interni, seconda riga

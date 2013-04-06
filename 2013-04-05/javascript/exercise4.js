@@ -173,6 +173,7 @@ function annulus_sector (alpha, r, R) {
   var model = MAP(mapping)(domain);
   return model;
 }
+//codice di Giovanni Pace 465479
 var semicircle_0 = annulus_sector(PI, 0, 1.25 + 0.20);
 semicircle_0 = R([1,2])([-PI/2])(semicircle_0);
 semicircle_0 = T([1,2])([1.5+7+1.3,2+2.5+1.25 -0.2])(semicircle_0);
