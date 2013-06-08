@@ -27,9 +27,11 @@ function facets(origin){
 		var k = origin[i].length;
 		for(var j=0; j<k;j++){
 			if(j == 0){final_string+='f '+origin[i][j]+' ';}					//Initialize the string
-			if(j == k-1){final_string+=origin[i][j]+'\n';}					//If we are at the least - 1 element, print the least and break row
 			else{
-				final_string+=origin[i][j]+' ';									//Normal activation
+				if(j == k-1){final_string+=origin[i][j]+'\n';}					//If we are at the least - 1 element, print the least and break row
+				else{
+					final_string+=origin[i][j]+' ';									//Normal activation
+				}
 			}
  		}
 	}
